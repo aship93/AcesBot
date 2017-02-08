@@ -30,7 +30,7 @@ public class AcesBotMain {
 				System.out.println("mysql.exe was not found in the process list, launching now");
 			}
 
-			aBot.connect("irc.twitch.tv", 6667, "oauth:sh2icdaq6rofz6gadhnf26vboa1ktw");
+			aBot.connect("irc.twitch.tv", 6667, "");
 			aBot.joinChannel("#4acesgaming");
 			BotThread aThread = new BotThread("Points Thread", aBot);
 			//BotThread bThread = new BotThread("Data Thread", aBot);
