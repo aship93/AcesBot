@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd>
+    <useProjectRuleSet>false</useProjectRuleSet>
+    <ruleSetFile>.ruleset</ruleSetFile>
+    <excludePatterns/>
+    <includePatterns/>
+    <rules>
+        <rule>
+            <name>AvoidDuplicateLiterals</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>StringInstantiation</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>StringToString</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>InefficientStringBuffering</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>UnnecessaryCaseChange</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>UseStringBufferLength</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>AppendCharacterWithChar</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>ConsecutiveLiteralAppends</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>UseIndexOfChar</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>InefficientEmptyStringCheck</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>InsufficientStringBufferDeclaration</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>UselessStringValueOf</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>StringBufferInstantiationWithChar</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>UseEqualsToCompareStrings</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidStringBufferField</name>
+            <ruleset>String and StringBuffer</ruleset>
+        </rule>
+        <rule>
+            <name>JumbledIncrementer</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>ForLoopShouldBeWhileLoop</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>OverrideBothEqualsAndHashcode</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>DoubleCheckedLocking</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>ReturnFromFinallyBlock</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>UnconditionalIfStatement</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>BooleanInstantiation</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>CollapsibleIfStatements</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>ClassCastExceptionWithToArray</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidDecimalLiteralsInBigDecimalConstructor</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>MisplacedNullCheck</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidThreadGroup</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>BrokenNullCheck</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>BigIntegerInstantiation</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidUsingOctalValues</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidUsingHardCodedIP</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>CheckResultSet</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidMultipleUnaryOperators</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>ExtendsObject</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>CheckSkipResult</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidBranchingStatementAsLastInLoop</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>DontCallThreadRun</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>DontUseFloatTypeForLoopIndices</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+        <rule>
+            <name>MethodReturnsInternalArray</name>
+            <ruleset>Security Code Guidelines</ruleset>
+        </rule>
+        <rule>
+            <name>ArrayIsStoredDirectly</name>
+            <ruleset>Security Code Guidelines</ruleset>
+        </rule>
+        <rule>
+            <name>NPathComplexity</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessiveMethodLength</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessiveParameterList</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>CyclomaticComplexity</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>TooManyFields</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>NcssMethodCount</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>TooManyMethods</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>UseConcatOnce</name>
+            <ruleset>XPath in XSL</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidAxisNavigation</name>
+            <ruleset>XPath in XSL</ruleset>
+        </rule>
+        <rule>
+            <name>NPathComplexity</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessiveMethodLength</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessiveParameterList</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessiveClassLength</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>CyclomaticComplexity</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessivePublicCount</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>TooManyFields</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>NcssMethodCount</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>NcssTypeCount</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>NcssConstructorCount</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>TooManyMethods</name>
+            <ruleset>Code Size</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidInstantiatingObjectsInLoops</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>UseArrayListInsteadOfVector</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>SimplifyStartsWith</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>UseStringBufferForStringAppends</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>UseArraysAsList</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidArrayLoops</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>UnnecessaryWrapperObjectCreation</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>AddEmptyString</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>RedundantFieldInitializer</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>PrematureDeclaration</name>
+            <ruleset>Optimization</ruleset>
+        </rule>
+        <rule>
+            <name>MistypedCDATASection</name>
+            <ruleset>Basic XML</ruleset>
+        </rule>
+        <rule>
+            <name>CollapsibleIfStatements</name>
+            <ruleset>Basic</ruleset>
+        </rule>
+    </rules>
+    <includeDerivedFiles>false</includeDerivedFiles>
+    <violationsAsErrors>true</violationsAsErrors>
+    <fullBuildEnabled>true</fullBuildEnabled>
+</pmd>
