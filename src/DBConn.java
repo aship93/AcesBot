@@ -12,7 +12,7 @@ public class DBConn {
 			System.out.println("Driver Class loaded!");
 			String URL = "jdbc:mysql://localhost/user_points";
 			String USER = "root";
-			String PASS = "gowolfpack1993";
+			String PASS = "";
 			
 			return DriverManager.getConnection(URL, USER, PASS);
 			} catch (SQLException e) {
